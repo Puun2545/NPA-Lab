@@ -1,0 +1,7 @@
+version: 'lastest'
+services:
+#containers
+  ratings:
+    build: .
+    ports:
+      - "8084:8080"
